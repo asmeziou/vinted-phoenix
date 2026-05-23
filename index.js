@@ -5,6 +5,8 @@ const cors = require("cors");
 const cloudinary = require("cloudinary").v2; // laissé l'import ici pour la config cloudinary
 mongoose.connect(process.env.MONGODB_URI);
 
+//PROJET vinted-phoenix  https://github.com/asmeziou/vinted-phoenix
+
 const app = express();
 
 app.use(express.json());
